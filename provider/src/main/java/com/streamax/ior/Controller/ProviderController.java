@@ -16,6 +16,7 @@ public class ProviderController {
 
     @PostMapping("test/{data}")
     public String test2(@PathVariable("data") String data) {
+
         return "test-post";
     }
 }
